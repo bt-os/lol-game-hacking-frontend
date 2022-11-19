@@ -46,11 +46,6 @@ div p.scrolling-text {
   }
 }
 
-svg.instruction-step-arrow {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 div.supported-game {
   background: var(--bs-body-bg) !important;
   padding: 1rem;
