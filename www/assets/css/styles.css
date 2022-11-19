@@ -61,3 +61,8 @@ div.supported-game {
   margin-right: 10px;
 }
 
+.text-adv {
+  font-family: var(--bs-font-sans-serif);
+  margin-top: 1rem;
+}
+
