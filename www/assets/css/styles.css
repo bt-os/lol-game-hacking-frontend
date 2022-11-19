@@ -1,3 +1,8 @@
+:root {
+  --scrolling-text-speed: 30s;
+  --scrolling-text-speed-mobile: 10s;
+}
+
 #icon-brand {
   --bs-icon-size: 1.5rem;
 }
@@ -5,5 +10,39 @@
 #mainNav .navbar-brand {
   font-weight: 700;
   padding-right: 70px;
+}
+
+div.scrolling-text-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Roboto Condensed';
+}
+
+div p.scrolling-text {
+  position: relative;
+  -webkit-animation: scroll var(--scrolling-text-speed) infinite linear;
+  -moz-animation: scroll var(--scrolling-text-speed) infinite linear;
+  animation: scrolling-text var(--scrolling-text-speed) infinite linear;
+}
+
+@media screen and (max-width: 480px) {
+  div p.scrolling-text {
+    position: relative;
+    -webkit-animation: scroll var(--scrolling-text-speed-mobile) infinite linear;
+    -moz-animation: scroll var(--scrolling-text-speed-mobile) infinite linear;
+    -o-animation: scroll var(--scrolling-text-speed-mobile) infinite linear;
+    animation: scrolling-text var(--scrolling-text-speed-mobile) infinite linear;
+  }
+}
+
+@keyframes scrolling-text {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
