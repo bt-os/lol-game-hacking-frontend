@@ -60,11 +60,26 @@ div.supported-game {
   margin-top: 1rem;
 }
 
-.btn.login {
-  margin-right: 1rem;
+.nav-item-text {
+  font-weight: bold;
 }
 
-.nav-item.item-text {
-  font-weight: bold;
+.nav-item-text:hover {
+  color: #3763f4 !important;
+}
+
+.btn.login {
+  margin-right: 1rem;
+  background-color: green !important;
+}
+
+.btn {
+  border: white solid 1px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  border: white solid 1px;
+  background-color: var(--bs-btn-hover-bg) !important;
 }
 
