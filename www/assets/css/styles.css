@@ -9,7 +9,6 @@
 
 #mainNav .navbar-brand {
   font-weight: 700;
-  padding-right: 70px;
 }
 
 div.scrolling-text-container {
@@ -59,5 +58,13 @@ div.supported-game {
 .text-adv {
   font-family: var(--bs-font-sans-serif);
   margin-top: 1rem;
+}
+
+.btn.login {
+  margin-right: 1rem;
+}
+
+.nav-item.item-text {
+  font-weight: bold;
 }
 
