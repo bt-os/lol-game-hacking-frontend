@@ -1,6 +1,8 @@
 :root {
   --scrolling-text-speed: 30s;
   --scrolling-text-speed-mobile: 10s;
+  --bs-body-bg-light: #F4F4F5;
+  --bs-body-fg-light: #222939;
 }
 
 #icon-brand {
@@ -81,5 +83,11 @@ div.supported-game {
 .btn:hover {
   border: white solid 1px;
   background-color: var(--bs-btn-hover-bg) !important;
+}
+
+.bg-light {
+  color: var(--bs-body-fg-light) !important;
+  background: var(--bs-body-bg-light) !important;
+  font-family: var(--bs-font-sans-serif);
 }
 
