@@ -1,6 +1,11 @@
 (function() {
   "use strict"; // Start of use strict
 
+  window.addEventListener("DOMContentLoaded", (event) => {
+    let navbar_toggler = document.querySelector(".navbar-toggler");
+    if (navbar_toggler) navbar_toggler.click();
+  });
+
   function initParallax() {
 
     if (!('requestAnimationFrame' in window)) return;
@@ -58,4 +63,3 @@
 
   initParallax();
 })(); // End of use strict
-
