@@ -1,11 +1,11 @@
 {
-	"scrolling-text-label-text": "this is the scrolling text",
+	"scrolling_text_label_text": "this is the scrolling text",
 	"slider": [
 		{
-			"label-text-1": "Chào mừng thành viên mới nạp tặng 50%",
-			"label-text-2": "Nhanh tay lên nào",
-			"label-text-3": "Hãy đăng ký tham gia ngay",
-			"button-text": "ĐĂNG KÝ",
+			"label_text_1": "Chào mừng thành viên mới nạp tặng 50%",
+			"label_text_2": "Nhanh tay lên nào",
+			"label_text_3": "Hãy đăng ký tham gia ngay",
+			"button_text": "ĐĂNG KÝ",
 			"test": "test"
 		},
 		{
