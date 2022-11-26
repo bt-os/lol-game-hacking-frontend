@@ -16,7 +16,7 @@
     // let navbar_toggler = document.querySelector(".navbar-toggler");
     // if (navbar_toggler) navbar_toggler.click();
 
-    let strings = http_get_json_object("https://raw.githubusercontent.com/bt-os/lol-game-hacking-frontend/main/data/strings.json")
+    let strings = null; // http_get_json_object("https://raw.githubusercontent.com/bt-os/lol-game-hacking-frontend/main/data/strings.json")
     if (strings)
     {
       $("#scrolling-text-label-text")?.first()?.html(strings.scrolling_text_label_text);
