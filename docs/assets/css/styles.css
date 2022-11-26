@@ -95,3 +95,15 @@ div.supported-game {
   color: white;
 }
 
+img.image-streamer {
+  width: 43%;
+  height: 43%;
+}
+
+@media screen and (max-width: 480px) {
+  img.image-streamer {
+    width: 60%;
+    height: 60%;
+  }
+}
+
