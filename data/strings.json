@@ -9,9 +9,15 @@
 			"test": "test"
 		},
 		{
+			"label_text_1": "Streamer",
+			"label_text_2": "Streamer Name 1",
+			"label_text_3": "this is description of streamer 1",
 			"test": "test"
 		},
 		{
+			"label_text_1": "Streamer",
+			"label_text_2": "Streamer Name 2",
+			"label_text_3": "this is description of streamer 2",
 			"test": "test"
 		}
 	]
