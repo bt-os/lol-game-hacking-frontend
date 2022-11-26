@@ -1,10 +1,39 @@
 (function() {
   "use strict"; // Start of use strict
 
-  // window.addEventListener("DOMContentLoaded", (event) => {
-  //   let navbar_toggler = document.querySelector(".navbar-toggler");
-  //   if (navbar_toggler) navbar_toggler.click();
-  // });
+  function http_get_json_object(url)
+  {
+    return $.ajax({
+      url: url,
+      type: "GET",
+      dataType: "json",
+      cache: false,
+      async: false
+    }).responseJSON;
+  }
+
+  window.addEventListener("DOMContentLoaded", (event) => {
+    // let navbar_toggler = document.querySelector(".navbar-toggler");
+    // if (navbar_toggler) navbar_toggler.click();
+
+    let strings = http_get_json_object("https://raw.githubusercontent.com/bt-os/lol-game-hacking-frontend/main/data/strings.json")
+    if (strings)
+    {
+      $("#scrolling-text-label-text")?.first()?.html(strings.scrolling_text_label_text);
+
+      $("#slider-slide-0-label-text-1")?.first()?.html(strings.slider[0].label_text_1);
+      $("#slider-slide-0-label-text-2")?.first()?.html(strings.slider[0].label_text_2);
+      $("#slider-slide-0-label-text-3")?.first()?.html(strings.slider[0].label_text_3);
+
+      $("#streamer-1-label-text-1")?.first()?.html(strings.slider[1].label_text_1);
+      $("#streamer-1-label-text-2")?.first()?.html(strings.slider[1].label_text_2);
+      $("#streamer-1-label-text-3")?.first()?.html(strings.slider[1].label_text_3);
+
+      $("#streamer-2-label-text-1")?.first()?.html(strings.slider[2].label_text_1);
+      $("#streamer-2-label-text-2")?.first()?.html(strings.slider[2].label_text_2);
+      $("#streamer-2-label-text-3")?.first()?.html(strings.slider[2].label_text_3);
+    }
+  });
 
   function initParallax() {
 
