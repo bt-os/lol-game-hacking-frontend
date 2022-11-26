@@ -107,3 +107,17 @@ img.image-streamer {
   }
 }
 
+div.image-streamer {
+  position: relative;
+  flex: 0 0 23.5%;
+  transform: translate3d(0%, 0%, 0);
+}
+
+@media screen and (max-width: 480px) {
+  div.image-streamer {
+    position: relative;
+    flex: 0 0 42%;
+    transform: translate3d(0%, 0%, 0);
+  }
+}
+
