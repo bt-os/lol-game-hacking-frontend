@@ -3,7 +3,7 @@
 }
 
 #carousel-t .testimonial-content {
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 #carousel-t .carousel-control-next, .carousel-control-prev {
@@ -76,5 +76,26 @@
   margin: 15px auto;
   color: white;
   border-radius: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #carousel-t p {
+    font-size: 10px !important;
+    font-family: 'Roboto Condensed', Arial, Sans;
+  }
 }
 
