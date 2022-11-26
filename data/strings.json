@@ -1,17 +1,17 @@
 {
-	"scrolling_text_label_text": "this is the scrolling text",
+	"scrolling_text_label_text": "Trải nghiệm Casino Games mới hàng tuần. Hãy là người đầu tiên cảm nhận sự thú vị, lôi cuốn từ games mới mang đến cho quý khách. Tham gia ngay cùng chúng tôi.",
 	"slider": [
 		{
-			"label_text_1": "Chào mừng thành viên mới nạp tặng 50%",
-			"label_text_2": "Nhanh tay lên nào",
+			"label_text_1": "Chào mừng thành viên mới nạp tặng 50% số tiền tới 2 triệu đồng",
+			"label_text_2": "THÊM 88 FREESPINS",
 			"label_text_3": "Hãy đăng ký tham gia ngay",
 			"button_text": "ĐĂNG KÝ",
 			"test": "test"
 		},
 		{
 			"label_text_1": "Streamer",
-			"label_text_2": "Streamer Name 1",
-			"label_text_3": "this is description of streamer 1",
+			"label_text_2": "BÙI ĐỨC THIỆN",
+			"label_text_3": "Tuy tôi hướng nội nhưng vẫn phải thích nghi với môi trường mà ở ngoài&lt;br&gt;kia người hướng ngoại luôn được chú ý nhiều hơn, tôi đã tập cho bản thân&lt;br&gt;mình thói quen chào hỏi (mặc dù bản thân không thích chuyện này là mấy). Mạnh dạn hơn trong việc nêu ra ý kiến trước mọi người, chia sẻ nhiều hơn khi làm việc nhóm cũng như các mối quan hệ.&lt;br&gt;",
 			"link_image": "https://raw.githubusercontent.com/bt-os/lol-game-hacking-frontend/main/data/streamer-pham-minh-loc.jpg",
 			"link_facebook": "https://facebook.com",
 			"link_instagram": "https://instagram.com",
@@ -21,7 +21,7 @@
 		{
 			"label_text_1": "Streamer",
 			"label_text_2": "Streamer Name 2",
-			"label_text_3": "this is description of streamer 2",
+			"label_text_3": "Tuy tôi hướng nội nhưng vẫn phải thích nghi với môi trường mà ở ngoài&lt;br&gt;kia người hướng ngoại luôn được chú ý nhiều hơn, tôi đã tập cho bản thân&lt;br&gt;mình thói quen chào hỏi (mặc dù bản thân không thích chuyện này là mấy). Mạnh dạn hơn trong việc nêu ra ý kiến trước mọi người, chia sẻ nhiều hơn khi làm việc nhóm cũng như các mối quan hệ.&lt;br&gt;",
 			"link_image": "https://raw.githubusercontent.com/bt-os/lol-game-hacking-frontend/main/data/streamer-bui-duc-thien.jpg",
 			"link_facebook": "https://facebook.com",
 			"link_instagram": "https://instagram.com",
